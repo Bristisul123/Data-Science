@@ -13,7 +13,6 @@ while True:
     print("Too Short. Try again.")
 ```
 
----
 
 ##  Goal:
     1. Use `while True` and handle the exit condition manually.
