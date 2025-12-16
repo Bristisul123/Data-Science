@@ -4,6 +4,12 @@ Loops allow us to automate tasks.
 - While Loops: Iterate as long as a condition (State) is True. 
 Warning: While loops can run forever (Infinite Loop) if you don't write a line of code that changes the condition to False.
 
+##  Goal:
+    1. Using while True and handle the exit condition manually.
+    2. Calculate a sum using a for loop and a tracker (without using the math formula (n+1)).
+    3. Use the continue keyword to skip iterations when needed.
+    4. Write a loop that prints every letter of a string on a new line.
+    
 ```
 # The Infinite Input Pattern
 while True:
@@ -11,12 +17,6 @@ while True:
     if len(pwd) >= 5:
         break  # Exits the loop
     print("Too Short. Try again.")
-```
 
 
-##  Goal:
-    1. Use `while True` and handle the exit condition manually.
-    2. Calculate a sum using a `for` loop and a tracker (without using the math formula `(n+1)`).
-    3. Use the `continue` keyword to skip iterations when needed.
-    4. Write a loop that prints every letter of a string on a new line.
 
