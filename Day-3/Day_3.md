@@ -11,14 +11,13 @@ while True:
     if len(pwd) >= 5:
         break  # Exits the loop
     print("Too Short. Try again.")
+```
 
-## Goal:
+---
+
+##  Goal:
     1. Use `while True` and handle the exit condition manually.
-    2. Calculate sum using a `for` loop and a tracker without using the math formula `(n+1)`.
-    3. Use the `continue` keyword.
-    4. Write a loop that prints every letter on a new line.
+    2. Calculate a sum using a `for` loop and a tracker (without using the math formula `(n+1)`).
+    3. Use the `continue` keyword to skip iterations when needed.
+    4. Write a loop that prints every letter of a string on a new line.
 
-
-
-
-    
