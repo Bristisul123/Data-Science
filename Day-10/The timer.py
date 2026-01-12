@@ -4,7 +4,8 @@ def timer(func):
     def wrap():
         start = time.time()
         func()
-        print(start)
+        end = time.time()
+        print(f"The execution time is : {end-start}")
     return wrap
 
 @timer

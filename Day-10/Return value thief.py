@@ -1,10 +1,10 @@
 def bad_deco(func):
-    def wrap():
-        func()
+    def wrap(*args):
+        func(*args)
     return wrap
 
 @bad_deco
-def test():
-    return 10
+def test(a):
+    return a
 
-print(test())
+print(test(10))

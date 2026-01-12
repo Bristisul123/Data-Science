@@ -1,8 +1,8 @@
-user = "admin"
+user = "Admin"
 
 def admin_required(func):
     def wrap():
-        if user != "admin":
+        if user != "Admin":
             raise PermissionError
         return func()
     return wrap

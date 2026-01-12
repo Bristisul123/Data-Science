@@ -1,6 +1,6 @@
 def deco(func):
-    def wrap(*args, **kwargs):
-        return func(*args, **kwargs)
+    def wrap():
+        print("The sum is : ")
     return wrap
 
 @deco

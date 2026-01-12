@@ -1,11 +1,13 @@
-def wrapper(func):
-    def inner():
+def decorator(func):
+    def wrapper():
         print("Before Function")
         func()
         print("After Function")
-    return inner
-@wrapper
+
+    return wrapper
+
+@decorator
 def old_func():
-    print("Hi")
+    print("Hello")
 
 old_func()
