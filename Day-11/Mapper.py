@@ -1,0 +1,1 @@
+print(list(map(lambda a: a*a, [2,5,8,9])))

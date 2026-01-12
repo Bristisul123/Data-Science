@@ -1,0 +1,1 @@
+print(list(filter(lambda a : a>=0, [-1,4,-3,9])))
